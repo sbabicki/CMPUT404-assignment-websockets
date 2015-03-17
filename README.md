@@ -14,6 +14,8 @@ pip install flask-sockets
 
 pip install ws4py
 
+pip install gunicorn
+
 Contributors / Licensing
 ========================
 
@@ -49,3 +51,36 @@ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
 CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
+
+
+#Modifications Description:
+###server.py
+- Modified to meet requirements 
+
+###index.html
+- Modified to meet requirements <br>
+- Visual changes: 
+colour actively changes as user continues to draw on canvas, 
+size of up/down click circle decreased
+
+###virt_env/
+- Created a virtual environment to use in order to have the correct prereqs
+
+
+#Resources Used: 
+Used code by Abram Hindle:
+<br>
+<br>http://webdocs.cs.ualberta.ca/~hindle1/2014/CMPUT404-Javascript-Slides/#/8 
+<br>Accessed on Feb. 28 2015
+<br>
+<br>https://github.com/abramhindle/WebSocketsExamples/blob/master/static/broadcast.html
+<br>Accessed on Mar. 16 2015
+<br>
+<br>https://github.com/abramhindle/WebSocketsExamples/blob/master/broadcaster.py 
+<br>Accessed on Mar. 16 2015
+<br>
+<br>Note: All functions taken from these sources are sited within the code. 
+
+
+#Collaborators:
+None
